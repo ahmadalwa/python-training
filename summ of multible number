@@ -1,0 +1,17 @@
+print("give me multiple number and i will give you the sum of them ")
+
+
+numbers = int(input("number of numbers is: "))
+
+current_num = 0
+summ = 0
+
+while current_num < numbers :
+    number = float(input("enter number:"))
+    summ += number
+    current_num += 1
+
+
+
+print("sum of all number = " , summ)
+print("average of all number = " , summ/numbers)
