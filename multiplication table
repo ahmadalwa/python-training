@@ -1,0 +1,16 @@
+print("multiplication table ")
+while True  :
+    start = int(input("from : "))
+    end = int(input("to : "))
+
+    for x in range(start,end+1):
+        ##if end == 6 :
+        ##    print("close")
+        ##    break
+
+        for y in range(1,13):
+            print(x ,"x", y ,"=" , x * y)
+        print("-----------")
+
+
+        
