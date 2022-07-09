@@ -1,0 +1,30 @@
+import time
+
+print("game start .. are you ready")
+print("enter a number and i will tell you is it an even or odd number")
+print("press x to close the game")
+
+while True :
+    number = input("give me a number :")
+    
+    if number == "x" :
+        print("wait ....")
+        time.sleep(3)
+        print("**************")
+        print("close")
+        print("**************")
+        break
+    try :
+        number = int(number)
+        if number % 2 == 0:
+            print("**************")
+            print("number is even")
+            print("**************")
+            
+        else:
+            print("**************")
+            print("number is odd")
+            print("**************")
+    except ValueError :
+        print("enter a valid number")
+        print("**************")
